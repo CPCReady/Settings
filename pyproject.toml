@@ -19,6 +19,7 @@ emulators, and CPC system settings using a modern Qt-based interface.
 """
 icon = "src/cpcreadyconfig/resources/icon"
 sources = ["src/cpcreadyconfig"]
+license = { file = "LICENSE" }
 requires = [
     "PySide6>=6.5.0,<6.8.0",
     "tomli>=2.0.0; python_version < '3.11'",
