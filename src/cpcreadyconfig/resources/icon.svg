@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="cpcready.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.84670104"
+     inkscape:cx="450.57226"
+     inkscape:cy="494.27127"
+     inkscape:window-width="2560"
+     inkscape:window-height="1294"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch5"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#808080;stop-opacity:0.97536896;"
+         offset="0"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       id="swatch1"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000037;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#cccccc;fill-opacity:0.975369;stroke:#bebebe;stroke-width:12.2206;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect5-9"
+       width="135.77939"
+       height="135.77936"
+       x="35.370918"
+       y="65.02179"
+       ry="19.170488"
+       rx="22.056433" />
+    <rect
+       style="fill:#000080;fill-opacity:0.975369;stroke:#030303;stroke-width:11.416;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect5"
+       width="126.68423"
+       height="126.99468"
+       x="39.760738"
+       y="69.472099"
+       ry="17.930189"
+       rx="20.578985" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.9333px;font-family:'Amstrad CPC464';-inkscape-font-specification:'Amstrad CPC464 Bold';text-align:center;text-anchor:middle;fill:#ffff00;fill-opacity:0.975369;stroke:none;stroke-width:0.815999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="92.808739"
+       y="118.43268"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-size:16.9333px;stroke:none;stroke-width:0.816"
+         x="92.808739"
+         y="118.43268">Ready</tspan></text>
+    <rect
+       style="fill:#ffff00;fill-opacity:0.975369;stroke:none;stroke-width:0.743617;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect7"
+       width="15.38426"
+       height="14.759285"
+       x="50.274265"
+       y="120.89639" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.4px;font-family:'Amstrad CPC464';-inkscape-font-specification:'Amstrad CPC464 Bold';text-align:center;text-anchor:middle;fill:#000080;fill-opacity:0.975369;stroke:none;stroke-width:0.815999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="71.559593"
+       y="100.30843"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:25.4px;font-family:'Electrum ADF Exp';-inkscape-font-specification:'Electrum ADF Exp Semi-Bold';fill:#ffffff;stroke-width:0.816"
+         x="71.559593"
+         y="100.30843">CPC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.9333px;font-family:'FiraCode Nerd Font Propo';-inkscape-font-specification:'FiraCode Nerd Font Propo Bold';text-align:center;text-anchor:middle;fill:#000080;fill-opacity:0.975369;stroke:none;stroke-width:0.815999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="60.310051"
+       y="43.435738"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="stroke-width:0.816"
+         x="60.310051"
+         y="43.435738" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.816"
+         id="tspan10"
+         x="60.310051"
+         y="64.602364" /></text>
+  </g>
+</svg>

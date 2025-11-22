@@ -1,0 +1,294 @@
+Date/Time:       2025-11-22 12:44:29 
+Command line:    /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin/briefcase dev
+
+OS Release:      Darwin 25.1.0
+OS Version:      Darwin Kernel Version 25.1.0: Mon Oct 20 19:33:00 PDT 2025; root:xnu-12377.41.6~2/RELEASE_ARM64_T6020
+Architecture:    arm64
+Platform:        macOS-26.1-arm64-arm-64bit
+
+Python exe:      /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin/python3.12
+Python version:  3.12.11 (main, Jun  3 2025, 15:41:47) [Clang 17.0.0 (clang-1700.0.13.3)]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.25
+Target platform: macOS
+Target format:   app
+
+Environment Variables:
+	ANTIGRAVITY_CLI_ALIAS=agy
+	BUNDLED_DEBUGPY_PATH=/Users/destroyer/.antigravity/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/libs/debugpy
+	COLORTERM=truecolor
+	COMMAND_MODE=unix2003
+	GEM_HOME=/Users/destroyer/.gem/ruby/3.4.1
+	GEM_PATH=/Users/destroyer/.gem/ruby/3.4.1:/Users/destroyer/.rubies/ruby-3.4.1/lib/ruby/gems/3.4.0
+	GEM_ROOT=/Users/destroyer/.rubies/ruby-3.4.1/lib/ruby/gems/3.4.0
+	GIT_ASKPASS=********************
+	HOME=/Users/destroyer
+	HOMEBREW_CELLAR=/opt/homebrew/Cellar
+	HOMEBREW_PREFIX=/opt/homebrew
+	HOMEBREW_REPOSITORY=/opt/homebrew
+	INFOPATH=/opt/homebrew/share/info:/opt/homebrew/share/info:
+	LANG=C.UTF-8
+	LESS=-R
+	LOGNAME=destroyer
+	LSCOLORS=Gxfxcxdxbxegedabagacad
+	LS_COLORS=di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43
+	MallocNanoZone=0
+	OLDPWD=/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig
+	ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+	OSLogRateLimit=64
+	PAGER=less
+	PATH=/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin:/Users/destroyer/.gem/ruby/3.4.1/bin:/Users/destroyer/.rubies/ruby-3.4.1/lib/ruby/gems/3.4.0/bin:/Users/destroyer/.rubies/ruby-3.4.1/bin:/Users/destroyer/.local/bin:/Users/destroyer/.antigravity/antigravity/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pmk/env/global/bin:/Library/Apple/usr/bin:/Users/destroyer/.local/bin:/Users/destroyer/.antigravity/antigravity/bin:/Users/destroyer/.orbstack/bin:/Users/destroyer/.antigravity/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts:/Users/destroyer/.orbstack/bin
+	PS1=(venv) %(?:%{[01;32m%}%1{➜%} :%{[01;31m%}%1{➜%} ) %{[36m%}%c%{[00m%} $(git_prompt_info)
+	PWD=/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig
+	PYDEVD_DISABLE_FILE_VALIDATION=1
+	PYTHONSTARTUP=/Users/destroyer/Library/Application Support/Antigravity/User/workspaceStorage/b2f8d70c8241eb7b0e88d6eab7a137df/ms-python.python/pythonrc.py
+	PYTHON_BASIC_REPL=1
+	RUBYOPT=
+	RUBY_ENGINE=ruby
+	RUBY_ROOT=/Users/destroyer/.rubies/ruby-3.4.1
+	RUBY_VERSION=3.4.1
+	SHELL=/bin/zsh
+	SHLVL=1
+	SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.EgC0HalnED/Listeners
+	TERM=xterm-256color
+	TERM_PROGRAM=vscode
+	TERM_PROGRAM_VERSION=1.104.0
+	TMPDIR=/var/folders/9l/r814l81j56d4h3x4tf8wnnzm0000gn/T/
+	USER=destroyer
+	USER_ZDOTDIR=/Users/destroyer
+	VIRTUAL_ENV=/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv
+	VIRTUAL_ENV_PROMPT=venv
+	VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=/Users/destroyer/.antigravity/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/.noConfigDebugAdapterEndpoints/endpoint-6cfb5aeedcf9adff.txt
+	VSCODE_GIT_ASKPASS_EXTRA_ARGS=********************
+	VSCODE_GIT_ASKPASS_MAIN=********************
+	VSCODE_GIT_ASKPASS_NODE=********************
+	VSCODE_GIT_IPC_HANDLE=/var/folders/9l/r814l81j56d4h3x4tf8wnnzm0000gn/T/vscode-git-ea1c4fd971.sock
+	VSCODE_INJECTION=1
+	VSCODE_PROFILE_INITIALIZED=1
+	VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+	XPC_FLAGS=0x0
+	XPC_SERVICE_NAME=0
+	ZDOTDIR=/Users/destroyer
+	ZSH=/Users/destroyer/.oh-my-zsh
+	_=/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin/briefcase
+	__CFBundleIdentifier=com.google.antigravity
+	__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x8
+
+pyproject.toml:
+[build-system]
+requires = ["briefcase"]
+
+[tool.briefcase]
+project_name = "CPCReady Config"
+bundle = "com.cpcready"
+version = "1.0.0"
+url = "https://github.com/yourusername/cpcreadyconfig"
+license = "MIT"
+author = "CPCReady Team"
+author_email = "contact@cpcready.com"
+
+[tool.briefcase.app.cpcreadyconfig]
+formal_name = "CPCReady Config"
+description = "Configuration GUI for CPCReady - Amstrad CPC Development Tool"
+long_description = """
+CPCReady Config is a graphical user interface for configuring CPCReady,
+a development tool for Amstrad CPC. It allows you to configure drives,
+emulators, and CPC system settings using a modern Qt-based interface.
+"""
+icon = "src/cpcreadyconfig/resources/icon"
+sources = ["src/cpcreadyconfig"]
+requires = [
+    "PySide6>=6.5.0,<6.8.0",
+    "tomli>=2.0.0; python_version < '3.11'",
+    "tomli_w>=1.0.0",
+]
+
+[tool.briefcase.app.cpcreadyconfig.macOS]
+requires = [
+    "PySide6>=6.5.0,<6.8.0",
+    "tomli>=2.0.0; python_version < '3.11'",
+    "tomli_w>=1.0.0",
+    "pyobjc-framework-Cocoa>=9.0",
+]
+version_triple = "13.0"
+
+[tool.briefcase.app.cpcreadyconfig.linux]
+requires = [
+    "PySide6>=6.5.0,<6.8.0",
+    "tomli>=2.0.0; python_version < '3.11'",
+    "tomli_w>=1.0.0",
+]
+system_requires = [
+    "libxcb-cursor0",
+    "libxcb-icccm4",
+    "libxcb-image0",
+    "libxcb-keysyms1",
+    "libxcb-randr0",
+    "libxcb-render-util0",
+    "libxcb-shape0",
+    "libxcb-xinerama0",
+    "libxcb-xkb1",
+    "libxkbcommon-x11-0",
+]
+
+[tool.briefcase.app.cpcreadyconfig.windows]
+requires = [
+    "PySide6>=6.5.0,<6.8.0",
+    "tomli>=2.0.0; python_version < '3.11'",
+    "tomli_w>=1.0.0",
+]
+
+[tool.briefcase.app.cpcreadyconfig.iOS]
+supported = false
+
+[tool.briefcase.app.cpcreadyconfig.android]
+supported = false
+
+[tool.briefcase.app.cpcreadyconfig.web]
+supported = false
+
+Briefcase Log:
+[12:44:28]                                                                                                                                                             config.py:666
+           *************************************************************************                                                                                   config.py:666
+           ** WARNING: License Definition for the Project is Deprecated           **                                                                                   config.py:666
+           *************************************************************************                                                                                   config.py:666
+                                                                                                                                                                       config.py:666
+               Briefcase now uses PEP 621 format for license definitions.                                                                                              config.py:666
+                                                                                                                                                                       config.py:666
+               Previously, the name of the license was assigned to the 'license'                                                                                       config.py:666
+               field in pyproject.toml. For PEP 621, the name of the license is                                                                                        config.py:666
+               assigned to 'license.text' or the name of the file containing the                                                                                       config.py:666
+               license is assigned to 'license.file'.                                                                                                                  config.py:666
+                                                                                                                                                                       config.py:666
+               The current configuration for the Project has a 'license' field                                                                                         config.py:666
+               that is specified as a string:                                                                                                                          config.py:666
+                                                                                                                                                                       config.py:666
+                   license = "MIT"                                                                                                                                     config.py:666
+                                                                                                                                                                       config.py:666
+               To use the PEP 621 format (and to remove this warning), specify that                                                                                    config.py:666
+               the LICENSE file contains the license for the Project:                                                                                                  config.py:666
+                                                                                                                                                                       config.py:666
+                   license.file = "LICENSE"                                                                                                                            config.py:666
+                                                                                                                                                                       config.py:666
+[12:44:29] *************************************************************************                                                                                   config.py:666
+                                                                                                                                                                          dev.py:248
+           [cpcreadyconfig] Starting in dev mode...                                                                                                                       dev.py:248
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin/python3.12 -c 'import runpy,                                                         subprocess.py:838
+           sys;sys.path.pop(0);sys.argv.extend([]);runpy.run_module("cpcreadyconfig", run_name="__main__", alter_sys=True)'                                                         
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /Users/destroyer                                                                                                                                subprocess.py:838
+           >>> Environment Overrides:                                                                                                                              subprocess.py:838
+           >>>     PYTHONPATH=/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/src                                                                                subprocess.py:838
+           >>>     PYTHONUNBUFFERED=1                                                                                                                              subprocess.py:838
+           >>>     PYTHONDEVMODE=1                                                                                                                                 subprocess.py:838
+           >>>     PYTHONUTF8=1                                                                                                                                    subprocess.py:838
+           ===========================================================================                                                                                    run.py:169
+           Traceback (most recent call last):                                                                                                                      subprocess.py:195
+             File "<string>", line 1, in <module>                                                                                                                  subprocess.py:195
+             File "<frozen runpy>", line 226, in run_module                                                                                                        subprocess.py:195
+             File "<frozen runpy>", line 98, in _run_module_code                                                                                                   subprocess.py:195
+             File "<frozen runpy>", line 88, in _run_code                                                                                                          subprocess.py:195
+             File "/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/src/cpcreadyconfig/__main__.py", line 6, in <module>                                          subprocess.py:195
+               from cpcreadyconfig.app import main                                                                                                                 subprocess.py:195
+             File "/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/src/cpcreadyconfig/app.py", line 9, in <module>                                               subprocess.py:195
+               from PySide6.QtWidgets import (                                                                                                                     subprocess.py:195
+           ModuleNotFoundError: No module named 'PySide6'                                                                                                          subprocess.py:195
+                                                                                                                                                                      __main__.py:42
+           Problem running app cpcreadyconfig.                                                                                                                        __main__.py:43
+           Saving log... started                                                                                                                                      console.py:438
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.12/site-packages/briefcase/__main__.py:27 in main                                                             │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ ❱ 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────╮                                                      │
+│ │       command = <briefcase.platforms.macOS.app.macOSAppDevCommand object at 0x109a6dc40>                                │                                                      │
+│ │       console = <briefcase.console.Console object at 0x109856480>                                                       │                                                      │
+│ │             e = BriefcaseCommandError('Problem running app cpcreadyconfig.')                                            │                                                      │
+│ │ extra_cmdline = []                                                                                                      │                                                      │
+│ │       options = {'appname': None, 'update_requirements': False, 'run_app': True, 'test_mode': False, 'passthrough': []} │                                                      │
+│ │     overrides = {}                                                                                                      │                                                      │
+│ │        result = 200                                                                                                     │                                                      │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                      │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.12/site-packages/briefcase/commands/dev.py:250 in __call__                                                    │
+│                                                                                                                                                                                  │
+│   247 │   │   │   else:                                                                                                                                                          │
+│   248 │   │   │   │   self.console.info("Starting in dev mode...", prefix=app.app_name)                                                                                          │
+│   249 │   │   │   env = self.get_environment(app)                                                                                                                                │
+│ ❱ 250 │   │   │   return self.run_dev_app(                                                                                                                                       │
+│   251 │   │   │   │   app,                                                                                                                                                       │
+│   252 │   │   │   │   env,                                                                                                                                                       │
+│   253 │   │   │   │   passthrough=[] if passthrough is None else passthrough,                                                                                                    │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────────────────╮              │
+│ │                 app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                                                                                            │              │
+│ │             appname = None                                                                                                                                      │              │
+│ │      dist_info_path = PosixPath('/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/src/cpcreadyconfig.dist-info')                                               │              │
+│ │                 env = {'PYTHONPATH': '/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/src', 'PYTHONUNBUFFERED': '1', 'PYTHONDEVMODE': '1', 'PYTHONUTF8': '1'} │              │
+│ │             options = {}                                                                                                                                        │              │
+│ │         passthrough = []                                                                                                                                        │              │
+│ │             run_app = True                                                                                                                                      │              │
+│ │                self = <briefcase.platforms.macOS.app.macOSAppDevCommand object at 0x109a6dc40>                                                                  │              │
+│ │           test_mode = False                                                                                                                                     │              │
+│ │ update_requirements = False                                                                                                                                     │              │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯              │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.12/site-packages/briefcase/commands/dev.py:168 in run_dev_app                                                 │
+│                                                                                                                                                                                  │
+│   165 │   │   │   )                                                                                                                                                              │
+│   166 │   │   │                                                                                                                                                                  │
+│   167 │   │   │   # Start streaming logs for the app.                                                                                                                            │
+│ ❱ 168 │   │   │   self._stream_app_logs(                                                                                                                                         │
+│   169 │   │   │   │   app,                                                                                                                                                       │
+│   170 │   │   │   │   popen=app_popen,                                                                                                                                           │
+│   171 │   │   │   │   clean_output=False,                                                                                                                                        │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────────────╮                      │
+│ │         app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                                                                                            │                      │
+│ │   app_popen = <Popen: returncode: 1 args: ['/Users/destroyer/PROJECTS/CPCReady/CPCReadyCon...>                                                          │                      │
+│ │     cmdline = [                                                                                                                                         │                      │
+│ │               │   '/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin/python3.12',                                                              │                      │
+│ │               │   '-c',                                                                                                                                 │                      │
+│ │               │   'import runpy, sys;sys.path.pop(0);sys.argv.extend([]);runpy.run_module("cpcready'+45                                                 │                      │
+│ │               ]                                                                                                                                         │                      │
+│ │         env = {'PYTHONPATH': '/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/src', 'PYTHONUNBUFFERED': '1', 'PYTHONDEVMODE': '1', 'PYTHONUTF8': '1'} │                      │
+│ │ main_module = 'cpcreadyconfig'                                                                                                                          │                      │
+│ │     options = {}                                                                                                                                        │                      │
+│ │ passthrough = []                                                                                                                                        │                      │
+│ │        self = <briefcase.platforms.macOS.app.macOSAppDevCommand object at 0x109a6dc40>                                                                  │                      │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                      │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.12/site-packages/briefcase/commands/run.py:200 in _stream_app_logs                                            │
+│                                                                                                                                                                                  │
+│   197 │   │   │   │   # If we're monitoring an actual app (not just a log stream),                                                                                               │
+│   198 │   │   │   │   # and the app didn't exit cleanly, surface the error to the user.                                                                                          │
+│   199 │   │   │   │   if popen.poll() != 0:                                                                                                                                      │
+│ ❱ 200 │   │   │   │   │   raise BriefcaseCommandError(f"Problem running app {app.app_name}.")                                                                                    │
+│   201 │   │                                                                                                                                                                      │
+│   202 │   │   except KeyboardInterrupt:                                                                                                                                          │
+│   203 │   │   │   pass  # Catch CTRL-C to exit normally                                                                                                                          │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────── locals ─────────────────────────────────────────────╮                                                                              │
+│ │          app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                                   │                                                                              │
+│ │ clean_filter = None                                                                             │                                                                              │
+│ │ clean_output = False                                                                            │                                                                              │
+│ │   log_filter = <briefcase.commands.run.LogFilter object at 0x109dd1820>                         │                                                                              │
+│ │   log_stream = False                                                                            │                                                                              │
+│ │        popen = <Popen: returncode: 1 args: ['/Users/destroyer/PROJECTS/CPCReady/CPCReadyCon...> │                                                                              │
+│ │         self = <briefcase.platforms.macOS.app.macOSAppDevCommand object at 0x109a6dc40>         │                                                                              │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Problem running app cpcreadyconfig.

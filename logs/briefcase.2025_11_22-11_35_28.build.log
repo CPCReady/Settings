@@ -1,0 +1,631 @@
+Date/Time:       2025-11-22 11:35:29 
+Command line:    /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin/briefcase build macOS
+
+OS Release:      Darwin 25.1.0
+OS Version:      Darwin Kernel Version 25.1.0: Mon Oct 20 19:33:00 PDT 2025; root:xnu-12377.41.6~2/RELEASE_ARM64_T6020
+Architecture:    arm64
+Platform:        macOS-26.1-arm64-arm-64bit-Mach-O
+
+Python exe:      /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin/python3.13
+Python version:  3.13.5 (main, Jun 11 2025, 15:36:57) [Clang 17.0.0 (clang-1700.0.13.3)]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.25
+Target platform: macOS
+Target format:   app
+
+Environment Variables:
+	ANTIGRAVITY_CLI_ALIAS=agy
+	BUNDLED_DEBUGPY_PATH=/Users/destroyer/.antigravity/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/libs/debugpy
+	COLORTERM=truecolor
+	COMMAND_MODE=unix2003
+	GEM_HOME=/Users/destroyer/.gem/ruby/3.4.1
+	GEM_PATH=/Users/destroyer/.gem/ruby/3.4.1:/Users/destroyer/.rubies/ruby-3.4.1/lib/ruby/gems/3.4.0
+	GEM_ROOT=/Users/destroyer/.rubies/ruby-3.4.1/lib/ruby/gems/3.4.0
+	GIT_ASKPASS=********************
+	HOME=/Users/destroyer
+	HOMEBREW_CELLAR=/opt/homebrew/Cellar
+	HOMEBREW_PREFIX=/opt/homebrew
+	HOMEBREW_REPOSITORY=/opt/homebrew
+	INFOPATH=/opt/homebrew/share/info:/opt/homebrew/share/info:
+	LANG=C.UTF-8
+	LESS=-R
+	LOGNAME=destroyer
+	LSCOLORS=Gxfxcxdxbxegedabagacad
+	LS_COLORS=di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43
+	MallocNanoZone=0
+	OLDPWD=/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig
+	ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+	OSLogRateLimit=64
+	PAGER=less
+	PATH=/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin:/Users/destroyer/.gem/ruby/3.4.1/bin:/Users/destroyer/.rubies/ruby-3.4.1/lib/ruby/gems/3.4.0/bin:/Users/destroyer/.rubies/ruby-3.4.1/bin:/Users/destroyer/.local/bin:/Users/destroyer/.antigravity/antigravity/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pmk/env/global/bin:/Library/Apple/usr/bin:/Users/destroyer/.local/bin:/Users/destroyer/.antigravity/antigravity/bin:/Users/destroyer/.orbstack/bin:/Users/destroyer/.antigravity/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts:/Users/destroyer/.orbstack/bin
+	PS1=(venv) %(?:%{[01;32m%}%1{➜%} :%{[01;31m%}%1{➜%} ) %{[36m%}%c%{[00m%} $(git_prompt_info)
+	PWD=/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig
+	PYDEVD_DISABLE_FILE_VALIDATION=1
+	PYTHONSTARTUP=/Users/destroyer/Library/Application Support/Antigravity/User/workspaceStorage/b2f8d70c8241eb7b0e88d6eab7a137df/ms-python.python/pythonrc.py
+	PYTHON_BASIC_REPL=1
+	RUBYOPT=
+	RUBY_ENGINE=ruby
+	RUBY_ROOT=/Users/destroyer/.rubies/ruby-3.4.1
+	RUBY_VERSION=3.4.1
+	SHELL=/bin/zsh
+	SHLVL=1
+	SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.EgC0HalnED/Listeners
+	TERM=xterm-256color
+	TERM_PROGRAM=vscode
+	TERM_PROGRAM_VERSION=1.104.0
+	TMPDIR=/var/folders/9l/r814l81j56d4h3x4tf8wnnzm0000gn/T/
+	USER=destroyer
+	USER_ZDOTDIR=/Users/destroyer
+	VIRTUAL_ENV=/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv
+	VIRTUAL_ENV_PROMPT=venv
+	VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=/Users/destroyer/.antigravity/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/.noConfigDebugAdapterEndpoints/endpoint-6cfb5aeedcf9adff.txt
+	VSCODE_GIT_ASKPASS_EXTRA_ARGS=********************
+	VSCODE_GIT_ASKPASS_MAIN=********************
+	VSCODE_GIT_ASKPASS_NODE=********************
+	VSCODE_GIT_IPC_HANDLE=/var/folders/9l/r814l81j56d4h3x4tf8wnnzm0000gn/T/vscode-git-ea1c4fd971.sock
+	VSCODE_INJECTION=1
+	VSCODE_PROFILE_INITIALIZED=1
+	VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+	XPC_FLAGS=0x0
+	XPC_SERVICE_NAME=0
+	ZDOTDIR=/Users/destroyer
+	ZSH=/Users/destroyer/.oh-my-zsh
+	_=/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin/briefcase
+	__CFBundleIdentifier=com.google.antigravity
+	__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x8
+
+pyproject.toml:
+[build-system]
+requires = ["briefcase"]
+
+[tool.briefcase]
+project_name = "CPCReady Config"
+bundle = "com.cpcready"
+version = "1.0.0"
+url = "https://github.com/yourusername/cpcreadyconfig"
+license = "MIT"
+author = "CPCReady Team"
+author_email = "contact@cpcready.com"
+
+[tool.briefcase.app.cpcreadyconfig]
+formal_name = "CPCReady Config"
+description = "Configuration GUI for CPCReady - Amstrad CPC Development Tool"
+long_description = """
+CPCReady Config is a graphical user interface for configuring CPCReady,
+a development tool for Amstrad CPC. It allows you to configure drives,
+emulators, and CPC system settings using a modern Qt-based interface.
+"""
+icon = "src/cpcreadyconfig/resources/icon"
+sources = ["src/cpcreadyconfig"]
+requires = [
+    "PySide6>=6.5.0",
+    "tomli>=2.0.0; python_version < '3.11'",
+    "tomli_w>=1.0.0",
+]
+
+[tool.briefcase.app.cpcreadyconfig.macOS]
+requires = [
+    "PySide6>=6.5.0",
+    "tomli>=2.0.0; python_version < '3.11'",
+    "tomli_w>=1.0.0",
+    "pyobjc-framework-Cocoa>=9.0",
+]
+
+[tool.briefcase.app.cpcreadyconfig.linux]
+requires = [
+    "PySide6>=6.5.0",
+    "tomli>=2.0.0; python_version < '3.11'",
+    "tomli_w>=1.0.0",
+]
+system_requires = [
+    "libxcb-cursor0",
+    "libxcb-icccm4",
+    "libxcb-image0",
+    "libxcb-keysyms1",
+    "libxcb-randr0",
+    "libxcb-render-util0",
+    "libxcb-shape0",
+    "libxcb-xinerama0",
+    "libxcb-xkb1",
+    "libxkbcommon-x11-0",
+]
+
+[tool.briefcase.app.cpcreadyconfig.windows]
+requires = [
+    "PySide6>=6.5.0",
+    "tomli>=2.0.0; python_version < '3.11'",
+    "tomli_w>=1.0.0",
+]
+
+[tool.briefcase.app.cpcreadyconfig.iOS]
+supported = false
+
+[tool.briefcase.app.cpcreadyconfig.android]
+supported = false
+
+[tool.briefcase.app.cpcreadyconfig.web]
+supported = false
+
+Briefcase Log:
+[11:35:19]                                                                                                                                                             config.py:666
+           *************************************************************************                                                                                   config.py:666
+           ** WARNING: License Definition for the Project is Deprecated           **                                                                                   config.py:666
+           *************************************************************************                                                                                   config.py:666
+                                                                                                                                                                       config.py:666
+               Briefcase now uses PEP 621 format for license definitions.                                                                                              config.py:666
+                                                                                                                                                                       config.py:666
+               Previously, the name of the license was assigned to the 'license'                                                                                       config.py:666
+               field in pyproject.toml. For PEP 621, the name of the license is                                                                                        config.py:666
+               assigned to 'license.text' or the name of the file containing the                                                                                       config.py:666
+               license is assigned to 'license.file'.                                                                                                                  config.py:666
+                                                                                                                                                                       config.py:666
+               The current configuration for the Project has a 'license' field                                                                                         config.py:666
+               that is specified as a string:                                                                                                                          config.py:666
+                                                                                                                                                                       config.py:666
+                   license = "MIT"                                                                                                                                     config.py:666
+                                                                                                                                                                       config.py:666
+               To use the PEP 621 format (and to remove this warning), specify that                                                                                    config.py:666
+               the LICENSE file contains the license for the Project:                                                                                                  config.py:666
+                                                                                                                                                                       config.py:666
+                   license.file = "LICENSE"                                                                                                                            config.py:666
+                                                                                                                                                                       config.py:666
+           *************************************************************************                                                                                   config.py:666
+                                                                                                                                                                       create.py:937
+           [cpcreadyconfig] Generating application template...                                                                                                         create.py:937
+           Using app template: https://github.com/beeware/briefcase-macOS-app-template.git, branch v0.3.25                                                              base.py:1241
+           Cloning template 'https://github.com/beeware/briefcase-macOS-app-template.git'...                                                                            base.py:1073
+[11:35:20] Using existing template (sha 10d36c8512e92d3ee4b3be2579a47300ac8f844d, updated Sun Aug 10 10:12:59 2025)                                                     base.py:1146
+[11:35:21]                                                                                                                                                         subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     xattr -p 'com.apple.fileprovider.fpfs#P' '/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/CPCReady Config.app' subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig                                                                                               subprocess.py:838
+           >>> Command Output:                                                                                                                                     subprocess.py:838
+           >>>     xattr: /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/CPCReady Config.app: No such xattr:                     subprocess.py:838
+           com.apple.fileprovider.fpfs#P                                                                                                                                            
+           >>> Return code: 1                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+                                                                                                                                                                       create.py:952
+           [cpcreadyconfig] Installing support package...                                                                                                              create.py:952
+           Using support package https://briefcase-support.s3.amazonaws.com/python/3.13/macOS/Python-3.13-macOS-support.b10.tar.gz                                     create.py:366
+[11:35:22] Downloading Python-3.13-macOS-support.b10.tar.gz...                                                                                                           file.py:227
+[11:35:26] Unpacking support package... started                                                                                                                        create.py:281
+[11:35:27] Unpacking support package... done                                                                                                                           create.py:281
+           Copying standard library into app bundle... started                                                                                                             app.py:66
+           Copying standard library into app bundle... done                                                                                                                app.py:66
+                                                                                                                                                                       create.py:963
+           [cpcreadyconfig] Installing stub binary...                                                                                                                  create.py:963
+           Using stub binary https://briefcase-support.s3.amazonaws.com/python/3.13/macOS/GUI-Stub-3.13-b12.zip                                                        create.py:477
+[11:35:28] Downloading GUI-Stub-3.13-b12.zip...                                                                                                                          file.py:227
+           Installing stub binary... started                                                                                                                           create.py:422
+           Installing stub binary... done                                                                                                                              create.py:422
+                                                                                                                                                                       create.py:970
+           [cpcreadyconfig] Installing application code...                                                                                                             create.py:970
+           Installing src/cpcreadyconfig... started                                                                                                                    create.py:734
+           Installing src/cpcreadyconfig... done                                                                                                                       create.py:734
+                                                                                                                                                                       create.py:973
+           [cpcreadyconfig] Installing requirements...                                                                                                                 create.py:973
+           Installing app requirements... started                                                                                                                      create.py:660
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin/python3.13 -u -X utf8 -m pip install --disable-pip-version-check --upgrade --no-user subprocess.py:838
+           --target=/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/app_packages.arm64 --only-binary :all: --platform                              
+           macosx_11_0_arm64 'PySide6>=6.5.0' 'tomli>=2.0.0; python_version < '"'"'3.11'"'"'' 'tomli_w>=1.0.0' 'PySide6>=6.5.0' 'tomli>=2.0.0; python_version <                     
+           '"'"'3.11'"'"'' 'tomli_w>=1.0.0' 'pyobjc-framework-Cocoa>=9.0'                                                                                                           
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig                                                                                               subprocess.py:838
+           Ignoring tomli: markers 'python_version < "3.11"' don't match your environment                                                                          subprocess.py:195
+           Ignoring tomli: markers 'python_version < "3.11"' don't match your environment                                                                          subprocess.py:195
+           ERROR: Ignored the following versions that require a different python version: 6.2.2 Requires-Python >=3.6, <3.11; 6.2.2.1 Requires-Python >=3.6,       subprocess.py:195
+           <3.11; 6.2.3 Requires-Python >=3.6, <3.11; 6.2.4 Requires-Python >=3.6, <3.11; 6.3.0 Requires-Python <3.11,>=3.6; 6.3.1 Requires-Python <3.11,>=3.6;                     
+           6.3.2 Requires-Python <3.11,>=3.6; 6.4.0.1 Requires-Python <3.12,>=3.7; 6.4.1 Requires-Python <3.12,>=3.7; 6.4.2 Requires-Python <3.12,>=3.7; 6.4.3                      
+           Requires-Python <3.12,>=3.7; 6.5.0 Requires-Python <3.12,>=3.7; 6.5.1 Requires-Python <3.12,>=3.7; 6.5.1.1 Requires-Python <3.12,>=3.7; 6.5.2                            
+           Requires-Python <3.12,>=3.7; 6.5.3 Requires-Python <3.12,>=3.7; 6.6.0 Requires-Python <3.13,>=3.8; 6.6.1 Requires-Python <3.13,>=3.8; 6.6.2                              
+           Requires-Python <3.13,>=3.8; 6.6.3 Requires-Python <3.13,>=3.8; 6.6.3.1 Requires-Python <3.13,>=3.8; 6.7.0 Requires-Python <3.13,>=3.9; 6.7.1                            
+           Requires-Python <3.13,>=3.9; 6.7.2 Requires-Python <3.13,>=3.9; 6.7.3 Requires-Python <3.13,>=3.9                                                                        
+           ERROR: Could not find a version that satisfies the requirement PySide6>=6.5.0 (from versions: none)                                                     subprocess.py:195
+           ERROR: No matching distribution found for PySide6>=6.5.0                                                                                                subprocess.py:195
+           >>> Return code: 1                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           Installing app requirements... errored                                                                                                                      create.py:660
+                                                                                                                                                                      __main__.py:42
+           Unable to install requirements. This may be because one of your                                                                                            __main__.py:43
+           requirements is invalid, or because pip was unable to connect                                                                                              __main__.py:43
+           to the PyPI server.                                                                                                                                        __main__.py:43
+                                                                                                                                                                      __main__.py:43
+           This may be because an arm64 wheel that is compatible with a minimum                                                                                       __main__.py:43
+           macOS version of 11.0 is not available.                                                                                                                    __main__.py:43
+                                                                                                                                                                      __main__.py:43
+           Saving log... started                                                                                                                                      console.py:438
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.13/site-packages/briefcase/commands/create.py:605 in _pip_install                                             │
+│                                                                                                                                                                                  │
+│    602 │   │   │   when invoking pip.                                                                                                                                            │
+│    603 │   │   """                                                                                                                                                               │
+│    604 │   │   try:                                                                                                                                                              │
+│ ❱  605 │   │   │   self.tools[app].app_context.run(                                                                                                                              │
+│    606 │   │   │   │   [                                                                                                                                                         │
+│    607 │   │   │   │   │   sys.executable,                                                                                                                                       │
+│    608 │   │   │   │   │   "-u",                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────╮                                         │
+│ │               app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                                                                   │                                         │
+│ │ app_packages_path = PosixPath('/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/app_packages.arm64') │                                         │
+│ │      install_hint = '\n\nThis may be because an arm64 wheel that is compatible with a minimum\nmacOS ver'+31                         │                                         │
+│ │          pip_args = [                                                                                                                │                                         │
+│ │                     │   '--only-binary',                                                                                             │                                         │
+│ │                     │   ':all:',                                                                                                     │                                         │
+│ │                     │   '--platform',                                                                                                │                                         │
+│ │                     │   'macosx_11_0_arm64',                                                                                         │                                         │
+│ │                     │   'PySide6>=6.5.0',                                                                                            │                                         │
+│ │                     │   "tomli>=2.0.0; python_version < '3.11'",                                                                     │                                         │
+│ │                     │   'tomli_w>=1.0.0',                                                                                            │                                         │
+│ │                     │   'PySide6>=6.5.0',                                                                                            │                                         │
+│ │                     │   "tomli>=2.0.0; python_version < '3.11'",                                                                     │                                         │
+│ │                     │   'tomli_w>=1.0.0',                                                                                            │                                         │
+│ │                     │   ... +1                                                                                                       │                                         │
+│ │                     ]                                                                                                                │                                         │
+│ │        pip_kwargs = {}                                                                                                               │                                         │
+│ │              self = <briefcase.platforms.macOS.app.macOSAppCreateCommand object at 0x1096f2660>                                      │                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                         │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.13/site-packages/briefcase/integrations/subprocess.py:144 in inner                                            │
+│                                                                                                                                                                                  │
+│   141 │   │   │   with sub.tools.console.release_console_control():                                                                                                              │
+│   142 │   │   │   │   return sub_method(sub, args, *wrapped_args, **wrapped_kwargs)                                                                                              │
+│   143 │   │   else:                                                                                                                                                              │
+│ ❱ 144 │   │   │   return sub_method(sub, args, *wrapped_args, **wrapped_kwargs)                                                                                                  │
+│   145 │                                                                                                                                                                          │
+│   146 │   return inner                                                                                                                                                           │
+│   147                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────── locals ────────────────────────────────────────────────╮                                                                       │
+│ │                    args = [                                                                            │                                                                       │
+│ │                           │   '/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin/python3.13', │                                                                       │
+│ │                           │   '-u',                                                                    │                                                                       │
+│ │                           │   '-X',                                                                    │                                                                       │
+│ │                           │   'utf8',                                                                  │                                                                       │
+│ │                           │   '-m',                                                                    │                                                                       │
+│ │                           │   'pip',                                                                   │                                                                       │
+│ │                           │   'install',                                                               │                                                                       │
+│ │                           │   '--disable-pip-version-check',                                           │                                                                       │
+│ │                           │   '--upgrade',                                                             │                                                                       │
+│ │                           │   '--no-user',                                                             │                                                                       │
+│ │                           │   ... +12                                                                  │                                                                       │
+│ │                           ]                                                                            │                                                                       │
+│ │ remove_dynamic_elements = False                                                                        │                                                                       │
+│ │                     sub = <briefcase.integrations.subprocess.Subprocess object at 0x1096f1a90>         │                                                                       │
+│ │            wrapped_args = ()                                                                           │                                                                       │
+│ │          wrapped_kwargs = {'check': True, 'encoding': 'UTF-8'}                                         │                                                                       │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                       │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.13/site-packages/briefcase/integrations/subprocess.py:539 in run                                              │
+│                                                                                                                                                                                  │
+│   536 │   │   # caller sets stream_output=False, then ensure_console_is_safe() will                                                                                              │
+│   537 │   │   # disable any dynamic console elements while the command runs.                                                                                                     │
+│   538 │   │   if stream_output:                                                                                                                                                  │
+│ ❱ 539 │   │   │   return self._run_and_stream_output(args, filter_func=filter_func, **kwargs)                                                                                    │
+│   540 │   │                                                                                                                                                                      │
+│   541 │   │   # Can't filter non-streamed output.                                                                                                                                │
+│   542 │   │   if filter_func:                                                                                                                                                    │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────── locals ───────────────────────────────────────────╮                                                                                 │
+│ │          args = [                                                                            │                                                                                 │
+│ │                 │   '/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin/python3.13', │                                                                                 │
+│ │                 │   '-u',                                                                    │                                                                                 │
+│ │                 │   '-X',                                                                    │                                                                                 │
+│ │                 │   'utf8',                                                                  │                                                                                 │
+│ │                 │   '-m',                                                                    │                                                                                 │
+│ │                 │   'pip',                                                                   │                                                                                 │
+│ │                 │   'install',                                                               │                                                                                 │
+│ │                 │   '--disable-pip-version-check',                                           │                                                                                 │
+│ │                 │   '--upgrade',                                                             │                                                                                 │
+│ │                 │   '--no-user',                                                             │                                                                                 │
+│ │                 │   ... +12                                                                  │                                                                                 │
+│ │                 ]                                                                            │                                                                                 │
+│ │   filter_func = None                                                                         │                                                                                 │
+│ │        kwargs = {'check': True, 'encoding': 'UTF-8'}                                         │                                                                                 │
+│ │          self = <briefcase.integrations.subprocess.Subprocess object at 0x1096f1a90>         │                                                                                 │
+│ │ stream_output = True                                                                         │                                                                                 │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                 │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.13/site-packages/briefcase/integrations/subprocess.py:615 in _run_and_stream_output                           │
+│                                                                                                                                                                                  │
+│   612 │   │   self._log_return_code(return_code)                                                                                                                                 │
+│   613 │   │                                                                                                                                                                      │
+│   614 │   │   if check and return_code:                                                                                                                                          │
+│ ❱ 615 │   │   │   raise subprocess.CalledProcessError(return_code, args, stderr=stderr)                                                                                          │
+│   616 │   │                                                                                                                                                                      │
+│   617 │   │   return subprocess.CompletedProcess(args, return_code, stderr=stderr)                                                                                               │
+│   618                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────── locals ────────────────────────────────────────────╮                                                                               │
+│ │        args = [                                                                                │                                                                               │
+│ │               │   '/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin/python3.13',     │                                                                               │
+│ │               │   '-u',                                                                        │                                                                               │
+│ │               │   '-X',                                                                        │                                                                               │
+│ │               │   'utf8',                                                                      │                                                                               │
+│ │               │   '-m',                                                                        │                                                                               │
+│ │               │   'pip',                                                                       │                                                                               │
+│ │               │   'install',                                                                   │                                                                               │
+│ │               │   '--disable-pip-version-check',                                               │                                                                               │
+│ │               │   '--upgrade',                                                                 │                                                                               │
+│ │               │   '--no-user',                                                                 │                                                                               │
+│ │               │   ... +12                                                                      │                                                                               │
+│ │               ]                                                                                │                                                                               │
+│ │       check = True                                                                             │                                                                               │
+│ │ filter_func = None                                                                             │                                                                               │
+│ │      kwargs = {'encoding': 'UTF-8', 'stdout': -1, 'stderr': -2, 'bufsize': 1}                  │                                                                               │
+│ │     process = <Popen: returncode: 1 args: ['/Users/destroyer/PROJECTS/CPCReady/CPCReadyCon...> │                                                                               │
+│ │ return_code = 1                                                                                │                                                                               │
+│ │        self = <briefcase.integrations.subprocess.Subprocess object at 0x1096f1a90>             │                                                                               │
+│ │      stderr = None                                                                             │                                                                               │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                               │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+CalledProcessError: Command '['/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin/python3.13', '-u', '-X', 'utf8', '-m', 'pip', 'install', '--disable-pip-version-check', '--upgrade', '--no-user', '--target=/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/app_packages.arm64', '--only-binary', ':all:', '--platform', 'macosx_11_0_arm64', 'PySide6>=6.5.0', "tomli>=2.0.0; python_version < '3.11'", 'tomli_w>=1.0.0', 'PySide6>=6.5.0', "tomli>=2.0.0; python_version < '3.11'", 'tomli_w>=1.0.0', 'pyobjc-framework-Cocoa>=9.0']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.13/site-packages/briefcase/__main__.py:27 in main                                                             │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ ❱ 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────── locals ──────────────────────────────────────────╮                                                                                   │
+│ │       command = <briefcase.platforms.macOS.app.macOSAppBuildCommand object at 0x1096f01a0> │                                                                                   │
+│ │       console = <briefcase.console.Console object at 0x1094fe7b0>                          │                                                                                   │
+│ │             e = RequirementsInstallError()                                                 │                                                                                   │
+│ │ extra_cmdline = []                                                                         │                                                                                   │
+│ │       options = {                                                                          │                                                                                   │
+│ │                 │   'update': False,                                                       │                                                                                   │
+│ │                 │   'update_requirements': False,                                          │                                                                                   │
+│ │                 │   'update_support': False,                                               │                                                                                   │
+│ │                 │   'update_stub': False,                                                  │                                                                                   │
+│ │                 │   'update_resources': False,                                             │                                                                                   │
+│ │                 │   'no_update': False,                                                    │                                                                                   │
+│ │                 │   'test_mode': False                                                     │                                                                                   │
+│ │                 }                                                                          │                                                                                   │
+│ │     overrides = {}                                                                         │                                                                                   │
+│ │        result = 200                                                                        │                                                                                   │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                   │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.13/site-packages/briefcase/commands/build.py:154 in __call__                                                  │
+│                                                                                                                                                                                  │
+│   151 │   │                                                                                                                                                                      │
+│   152 │   │   state = None                                                                                                                                                       │
+│   153 │   │   for _, app_obj in sorted(apps_to_build.items()):                                                                                                                   │
+│ ❱ 154 │   │   │   state = self._build_app(                                                                                                                                       │
+│   155 │   │   │   │   app_obj,                                                                                                                                                   │
+│   156 │   │   │   │   update=update,                                                                                                                                             │
+│   157 │   │   │   │   update_requirements=update_requirements,                                                                                                                   │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────── locals ─────────────────────────────────────────────╮                                                                             │
+│ │                   _ = 'cpcreadyconfig'                                                           │                                                                             │
+│ │                 app = None                                                                       │                                                                             │
+│ │            app_name = None                                                                       │                                                                             │
+│ │             app_obj = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                             │                                                                             │
+│ │       apps_to_build = {'cpcreadyconfig': <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>}         │                                                                             │
+│ │           no_update = False                                                                      │                                                                             │
+│ │             options = {}                                                                         │                                                                             │
+│ │                self = <briefcase.platforms.macOS.app.macOSAppBuildCommand object at 0x1096f01a0> │                                                                             │
+│ │               state = None                                                                       │                                                                             │
+│ │           test_mode = False                                                                      │                                                                             │
+│ │              update = False                                                                      │                                                                             │
+│ │ update_requirements = False                                                                      │                                                                             │
+│ │    update_resources = False                                                                      │                                                                             │
+│ │         update_stub = False                                                                      │                                                                             │
+│ │      update_support = False                                                                      │                                                                             │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                             │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.13/site-packages/briefcase/commands/build.py:66 in _build_app                                                 │
+│                                                                                                                                                                                  │
+│    63 │   │   │   )                                                                                                                                                              │
+│    64 │   │                                                                                                                                                                      │
+│    65 │   │   if not self.bundle_path(app).exists():                                                                                                                             │
+│ ❱  66 │   │   │   state = self.create_command(app, **options)                                                                                                                    │
+│    67 │   │   elif (                                                                                                                                                             │
+│    68 │   │   │   update  # An explicit update has been requested                                                                                                                │
+│    69 │   │   │   or update_requirements  # An explicit update of requirements has been reques                                                                                   │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────── locals ─────────────────────────────────────────────╮                                                                             │
+│ │                 app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                             │                                                                             │
+│ │           no_update = False                                                                      │                                                                             │
+│ │             options = {}                                                                         │                                                                             │
+│ │                self = <briefcase.platforms.macOS.app.macOSAppBuildCommand object at 0x1096f01a0> │                                                                             │
+│ │              update = False                                                                      │                                                                             │
+│ │ update_requirements = False                                                                      │                                                                             │
+│ │    update_resources = False                                                                      │                                                                             │
+│ │         update_stub = False                                                                      │                                                                             │
+│ │      update_support = False                                                                      │                                                                             │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                             │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.13/site-packages/briefcase/commands/create.py:1026 in __call__                                                │
+│                                                                                                                                                                                  │
+│   1023 │   │                                                                                                                                                                     │
+│   1024 │   │   state = None                                                                                                                                                      │
+│   1025 │   │   for _, app_obj in sorted(apps_to_create.items()):                                                                                                                 │
+│ ❱ 1026 │   │   │   state = self.create_app(                                                                                                                                      │
+│   1027 │   │   │   │   app_obj,                                                                                                                                                  │
+│   1028 │   │   │   │   **full_options(state, options),                                                                                                                           │
+│   1029 │   │   │   )                                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────── locals ───────────────────────────────────────────╮                                                                                 │
+│ │              _ = 'cpcreadyconfig'                                                            │                                                                                 │
+│ │            app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                              │                                                                                 │
+│ │       app_name = None                                                                        │                                                                                 │
+│ │        app_obj = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                              │                                                                                 │
+│ │ apps_to_create = {'cpcreadyconfig': <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>}          │                                                                                 │
+│ │        options = {}                                                                          │                                                                                 │
+│ │           self = <briefcase.platforms.macOS.app.macOSAppCreateCommand object at 0x1096f2660> │                                                                                 │
+│ │          state = None                                                                        │                                                                                 │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                 │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.13/site-packages/briefcase/commands/create.py:974 in create_app                                               │
+│                                                                                                                                                                                  │
+│    971 │   │   │   self.install_app_code(app=app)                                                                                                                                │
+│    972 │   │   │                                                                                                                                                                 │
+│    973 │   │   │   self.console.info("Installing requirements...", prefix=app.app_name)                                                                                          │
+│ ❱  974 │   │   │   self.install_app_requirements(app=app)                                                                                                                        │
+│    975 │   │   │                                                                                                                                                                 │
+│    976 │   │   │   self.console.info(                                                                                                                                            │
+│    977 │   │   │   │   "Installing application resources...", prefix=app.app_name                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────── locals ───────────────────────────────────────────────────╮                                                                  │
+│ │         app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                                                │                                                                  │
+│ │ bundle_path = PosixPath('/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app') │                                                                  │
+│ │     options = {}                                                                                            │                                                                  │
+│ │        self = <briefcase.platforms.macOS.app.macOSAppCreateCommand object at 0x1096f2660>                   │                                                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                  │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.13/site-packages/briefcase/commands/create.py:711 in install_app_requirements                                 │
+│                                                                                                                                                                                  │
+│    708 │   │   else:                                                                                                                                                             │
+│    709 │   │   │   try:                                                                                                                                                          │
+│    710 │   │   │   │   app_packages_path = self.app_packages_path(app)                                                                                                           │
+│ ❱  711 │   │   │   │   self._install_app_requirements(app, requires, app_packages_path)                                                                                          │
+│    712 │   │   │   except KeyError as e:                                                                                                                                         │
+│    713 │   │   │   │   raise BriefcaseCommandError(                                                                                                                              │
+│    714 │   │   │   │   │   "Application path index file does not define "                                                                                                        │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │                             app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                                                                                             │ │
+│ │               app_packages_path = PosixPath('/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/CPCReady                                       │ │
+│ │                                   Config.app/Contents/Resources/app_packages')                                                                                               │ │
+│ │ requirement_installer_args_path = None                                                                                                                                       │ │
+│ │               requirements_path = None                                                                                                                                       │ │
+│ │                        requires = [                                                                                                                                          │ │
+│ │                                   │   'PySide6>=6.5.0',                                                                                                                      │ │
+│ │                                   │   "tomli>=2.0.0; python_version < '3.11'",                                                                                               │ │
+│ │                                   │   'tomli_w>=1.0.0',                                                                                                                      │ │
+│ │                                   │   'PySide6>=6.5.0',                                                                                                                      │ │
+│ │                                   │   "tomli>=2.0.0; python_version < '3.11'",                                                                                               │ │
+│ │                                   │   'tomli_w>=1.0.0',                                                                                                                      │ │
+│ │                                   │   'pyobjc-framework-Cocoa>=9.0'                                                                                                          │ │
+│ │                                   ]                                                                                                                                          │ │
+│ │                            self = <briefcase.platforms.macOS.app.macOSAppCreateCommand object at 0x1096f2660>                                                                │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.13/site-packages/briefcase/platforms/macOS/__init__.py:251 in _install_app_requirements                       │
+│                                                                                                                                                                                  │
+│    248 │   │   │   # we've made the judgement call that the (minor, with known workarounds)                                                                                      │
+│    249 │   │   │   # inconvenience of not being able to use source tarballs is outweighed by                                                                                     │
+│    250 │   │   │   # the need to produce reliable, repeatable binary artefacts.                                                                                                  │
+│ ❱  251 │   │   │   super()._install_app_requirements(                                                                                                                            │
+│    252 │   │   │   │   app,                                                                                                                                                      │
+│    253 │   │   │   │   requires=requires,                                                                                                                                        │
+│    254 │   │   │   │   app_packages_path=host_app_packages_path,                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │                    app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                                                                                                      │ │
+│ │      app_packages_path = PosixPath('/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/CPCReady Config.app/Contents/Resources/app_packages')   │ │
+│ │                      f = <_io.BufferedReader                                                                                                                                 │ │
+│ │                          name='/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/support/Python.xcframework/macos-arm64_x86_64/Python.framew… │ │
+│ │ host_app_packages_path = PosixPath('/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/app_packages.arm64')                                    │ │
+│ │             info_plist = {                                                                                                                                                   │ │
+│ │                          │   'CFBundleDevelopmentRegion': 'English',                                                                                                         │ │
+│ │                          │   'CFBundleExecutable': 'Python',                                                                                                                 │ │
+│ │                          │   'CFBundleGetInfoString': 'Python Runtime and Library',                                                                                          │ │
+│ │                          │   'CFBundleIdentifier': 'org.python.python',                                                                                                      │ │
+│ │                          │   'CFBundleInfoDictionaryVersion': '6.0',                                                                                                         │ │
+│ │                          │   'CFBundleName': 'Python',                                                                                                                       │ │
+│ │                          │   'CFBundlePackageType': 'FMWK',                                                                                                                  │ │
+│ │                          │   'CFBundleShortVersionString': '3.13.5, (c) 2001-2024 Python Software Foundation.',                                                              │ │
+│ │                          │   'CFBundleLongVersionString': '3.13.5, (c) 2001-2024 Python Software Foundation.',                                                               │ │
+│ │                          │   'CFBundleSignature': '????',                                                                                                                    │ │
+│ │                          │   ... +2                                                                                                                                          │ │
+│ │                          }                                                                                                                                                   │ │
+│ │                 kwargs = {}                                                                                                                                                  │ │
+│ │          macOS_min_tag = '11_0'                                                                                                                                              │ │
+│ │      macOS_min_version = '11.0'                                                                                                                                              │ │
+│ │             plist_file = PosixPath('/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/support/Python.xcframework/macos-arm64_x86_64/Python.f… │ │
+│ │               requires = [                                                                                                                                                   │ │
+│ │                          │   'PySide6>=6.5.0',                                                                                                                               │ │
+│ │                          │   "tomli>=2.0.0; python_version < '3.11'",                                                                                                        │ │
+│ │                          │   'tomli_w>=1.0.0',                                                                                                                               │ │
+│ │                          │   'PySide6>=6.5.0',                                                                                                                               │ │
+│ │                          │   "tomli>=2.0.0; python_version < '3.11'",                                                                                                        │ │
+│ │                          │   'tomli_w>=1.0.0',                                                                                                                               │ │
+│ │                          │   'pyobjc-framework-Cocoa>=9.0'                                                                                                                   │ │
+│ │                          ]                                                                                                                                                   │ │
+│ │                   self = <briefcase.platforms.macOS.app.macOSAppCreateCommand object at 0x1096f2660>                                                                         │ │
+│ │    support_min_version = '11.0'                                                                                                                                              │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.13/site-packages/briefcase/commands/create.py:661 in _install_app_requirements                                │
+│                                                                                                                                                                                  │
+│    658 │   │   # Install requirements                                                                                                                                            │
+│    659 │   │   if requires:                                                                                                                                                      │
+│    660 │   │   │   with self.console.wait_bar(progress_message):                                                                                                                 │
+│ ❱  661 │   │   │   │   self._pip_install(                                                                                                                                        │
+│    662 │   │   │   │   │   app,                                                                                                                                                  │
+│    663 │   │   │   │   │   app_packages_path=app_packages_path,                                                                                                                  │
+│    664 │   │   │   │   │   pip_args=(                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────╮                                         │
+│ │               app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                                                                   │                                         │
+│ │ app_packages_path = PosixPath('/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/app_packages.arm64') │                                         │
+│ │      install_hint = '\n\nThis may be because an arm64 wheel that is compatible with a minimum\nmacOS ver'+31                         │                                         │
+│ │          pip_args = ['--only-binary', ':all:', '--platform', 'macosx_11_0_arm64']                                                    │                                         │
+│ │        pip_kwargs = None                                                                                                             │                                         │
+│ │  progress_message = 'Installing app requirements...'                                                                                 │                                         │
+│ │          requires = [                                                                                                                │                                         │
+│ │                     │   'PySide6>=6.5.0',                                                                                            │                                         │
+│ │                     │   "tomli>=2.0.0; python_version < '3.11'",                                                                     │                                         │
+│ │                     │   'tomli_w>=1.0.0',                                                                                            │                                         │
+│ │                     │   'PySide6>=6.5.0',                                                                                            │                                         │
+│ │                     │   "tomli>=2.0.0; python_version < '3.11'",                                                                     │                                         │
+│ │                     │   'tomli_w>=1.0.0',                                                                                            │                                         │
+│ │                     │   'pyobjc-framework-Cocoa>=9.0'                                                                                │                                         │
+│ │                     ]                                                                                                                │                                         │
+│ │              self = <briefcase.platforms.macOS.app.macOSAppCreateCommand object at 0x1096f2660>                                      │                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                         │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.13/site-packages/briefcase/commands/create.py:627 in _pip_install                                             │
+│                                                                                                                                                                                  │
+│    624 │   │   │   │   **pip_kwargs,                                                                                                                                             │
+│    625 │   │   │   )                                                                                                                                                             │
+│    626 │   │   except subprocess.CalledProcessError as e:                                                                                                                        │
+│ ❱  627 │   │   │   raise RequirementsInstallError(install_hint=install_hint) from e                                                                                              │
+│    628 │                                                                                                                                                                         │
+│    629 │   def _install_app_requirements(                                                                                                                                        │
+│    630 │   │   self,                                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────╮                                         │
+│ │               app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                                                                   │                                         │
+│ │ app_packages_path = PosixPath('/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/app_packages.arm64') │                                         │
+│ │      install_hint = '\n\nThis may be because an arm64 wheel that is compatible with a minimum\nmacOS ver'+31                         │                                         │
+│ │          pip_args = [                                                                                                                │                                         │
+│ │                     │   '--only-binary',                                                                                             │                                         │
+│ │                     │   ':all:',                                                                                                     │                                         │
+│ │                     │   '--platform',                                                                                                │                                         │
+│ │                     │   'macosx_11_0_arm64',                                                                                         │                                         │
+│ │                     │   'PySide6>=6.5.0',                                                                                            │                                         │
+│ │                     │   "tomli>=2.0.0; python_version < '3.11'",                                                                     │                                         │
+│ │                     │   'tomli_w>=1.0.0',                                                                                            │                                         │
+│ │                     │   'PySide6>=6.5.0',                                                                                            │                                         │
+│ │                     │   "tomli>=2.0.0; python_version < '3.11'",                                                                     │                                         │
+│ │                     │   'tomli_w>=1.0.0',                                                                                            │                                         │
+│ │                     │   ... +1                                                                                                       │                                         │
+│ │                     ]                                                                                                                │                                         │
+│ │        pip_kwargs = {}                                                                                                               │                                         │
+│ │              self = <briefcase.platforms.macOS.app.macOSAppCreateCommand object at 0x1096f2660>                                      │                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+RequirementsInstallError: Unable to install requirements. This may be because one of your
+requirements is invalid, or because pip was unable to connect
+to the PyPI server.
+
+This may be because an arm64 wheel that is compatible with a minimum
+macOS version of 11.0 is not available.
+
+

@@ -1,0 +1,71 @@
+[build-system]
+requires = ["briefcase"]
+
+[tool.briefcase]
+project_name = "CPCReady Config"
+bundle = "com.cpcready"
+version = "1.0.0"
+url = "https://github.com/yourusername/cpcreadyconfig"
+license = "MIT"
+author = "CPCReady Team"
+author_email = "contact@cpcready.com"
+
+[tool.briefcase.app.cpcreadyconfig]
+formal_name = "CPCReady Config"
+description = "Configuration GUI for CPCReady - Amstrad CPC Development Tool"
+long_description = """
+CPCReady Config is a graphical user interface for configuring CPCReady,
+a development tool for Amstrad CPC. It allows you to configure drives,
+emulators, and CPC system settings using a modern Qt-based interface.
+"""
+icon = "src/cpcreadyconfig/resources/icon"
+sources = ["src/cpcreadyconfig"]
+requires = [
+    "PySide6>=6.5.0,<6.8.0",
+    "tomli>=2.0.0; python_version < '3.11'",
+    "tomli_w>=1.0.0",
+]
+
+[tool.briefcase.app.cpcreadyconfig.macOS]
+requires = [
+    "PySide6>=6.5.0,<6.8.0",
+    "tomli>=2.0.0; python_version < '3.11'",
+    "tomli_w>=1.0.0",
+    "pyobjc-framework-Cocoa>=9.0",
+]
+version_triple = "13.0"
+
+[tool.briefcase.app.cpcreadyconfig.linux]
+requires = [
+    "PySide6>=6.5.0,<6.8.0",
+    "tomli>=2.0.0; python_version < '3.11'",
+    "tomli_w>=1.0.0",
+]
+system_requires = [
+    "libxcb-cursor0",
+    "libxcb-icccm4",
+    "libxcb-image0",
+    "libxcb-keysyms1",
+    "libxcb-randr0",
+    "libxcb-render-util0",
+    "libxcb-shape0",
+    "libxcb-xinerama0",
+    "libxcb-xkb1",
+    "libxkbcommon-x11-0",
+]
+
+[tool.briefcase.app.cpcreadyconfig.windows]
+requires = [
+    "PySide6>=6.5.0,<6.8.0",
+    "tomli>=2.0.0; python_version < '3.11'",
+    "tomli_w>=1.0.0",
+]
+
+[tool.briefcase.app.cpcreadyconfig.iOS]
+supported = false
+
+[tool.briefcase.app.cpcreadyconfig.android]
+supported = false
+
+[tool.briefcase.app.cpcreadyconfig.web]
+supported = false

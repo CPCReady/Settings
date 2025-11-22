@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.25
+Name: cpcreadyconfig
+Formal-Name: CPCReady Config
+App-ID: com.cpcready.cpcreadyconfig
+Version: 1.0.0
+Home-page: https://github.com/yourusername/cpcreadyconfig
+Download-URL: https://github.com/yourusername/cpcreadyconfig
+Author: CPCReady Team
+Author-email: contact@cpcready.com
+Summary: Configuration GUI for CPCReady - Amstrad CPC Development Tool

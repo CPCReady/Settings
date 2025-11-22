@@ -1,0 +1,424 @@
+Date/Time:       2025-11-22 12:37:06 
+Command line:    /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin/briefcase build macOS
+
+OS Release:      Darwin 25.1.0
+OS Version:      Darwin Kernel Version 25.1.0: Mon Oct 20 19:33:00 PDT 2025; root:xnu-12377.41.6~2/RELEASE_ARM64_T6020
+Architecture:    arm64
+Platform:        macOS-26.1-arm64-arm-64bit
+
+Python exe:      /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin/python3.12
+Python version:  3.12.11 (main, Jun  3 2025, 15:41:47) [Clang 17.0.0 (clang-1700.0.13.3)]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.25
+Target platform: macOS
+Target format:   app
+
+Environment Variables:
+	ANTIGRAVITY_AGENT=1
+	ANTIGRAVITY_CLI_ALIAS=agy
+	BUNDLED_DEBUGPY_PATH=/Users/destroyer/.antigravity/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/libs/debugpy
+	COLORTERM=truecolor
+	COMMAND_MODE=unix2003
+	GEM_HOME=/Users/destroyer/.gem/ruby/3.4.1
+	GEM_PATH=/Users/destroyer/.gem/ruby/3.4.1:/Users/destroyer/.rubies/ruby-3.4.1/lib/ruby/gems/3.4.0
+	GEM_ROOT=/Users/destroyer/.rubies/ruby-3.4.1/lib/ruby/gems/3.4.0
+	GIT_ASKPASS=********************
+	HOME=/Users/destroyer
+	HOMEBREW_CELLAR=/opt/homebrew/Cellar
+	HOMEBREW_PREFIX=/opt/homebrew
+	HOMEBREW_REPOSITORY=/opt/homebrew
+	INFOPATH=/opt/homebrew/share/info:/opt/homebrew/share/info:
+	LANG=C.UTF-8
+	LESS=-R
+	LOGNAME=destroyer
+	LSCOLORS=Gxfxcxdxbxegedabagacad
+	LS_COLORS=di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43
+	MallocNanoZone=0
+	OLDPWD=/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig
+	ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+	OSLogRateLimit=64
+	PAGER=cat
+	PATH=/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin:/Users/destroyer/.gem/ruby/3.4.1/bin:/Users/destroyer/.rubies/ruby-3.4.1/lib/ruby/gems/3.4.0/bin:/Users/destroyer/.rubies/ruby-3.4.1/bin:/Users/destroyer/.local/bin:/Users/destroyer/.antigravity/antigravity/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pmk/env/global/bin:/Library/Apple/usr/bin:/Users/destroyer/.local/bin:/Users/destroyer/.antigravity/antigravity/bin:/Users/destroyer/.orbstack/bin:/Users/destroyer/.antigravity/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/bundled/scripts/noConfigScripts:/Users/destroyer/.orbstack/bin
+	PS1=((venv) ) %(?:%{[01;32m%}%1{➜%} :%{[01;31m%}%1{➜%} ) %{[36m%}%c%{[00m%} $(git_prompt_info)
+	PWD=/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig
+	PYDEVD_DISABLE_FILE_VALIDATION=1
+	PYTHONSTARTUP=/Users/destroyer/Library/Application Support/Antigravity/User/workspaceStorage/b2f8d70c8241eb7b0e88d6eab7a137df/ms-python.python/pythonrc.py
+	PYTHON_BASIC_REPL=1
+	RUBYOPT=
+	RUBY_ENGINE=ruby
+	RUBY_ROOT=/Users/destroyer/.rubies/ruby-3.4.1
+	RUBY_VERSION=3.4.1
+	SHELL=/bin/zsh
+	SHLVL=1
+	SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.EgC0HalnED/Listeners
+	TERM=xterm-256color
+	TERM_PROGRAM=vscode
+	TERM_PROGRAM_VERSION=1.104.0
+	TMPDIR=/var/folders/9l/r814l81j56d4h3x4tf8wnnzm0000gn/T/
+	USER=destroyer
+	USER_ZDOTDIR=/Users/destroyer
+	VIRTUAL_ENV=/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv
+	VIRTUAL_ENV_PROMPT=(venv) 
+	VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=/Users/destroyer/.antigravity/extensions/ms-python.debugpy-2025.14.1-darwin-arm64/.noConfigDebugAdapterEndpoints/endpoint-6cfb5aeedcf9adff.txt
+	VSCODE_GIT_ASKPASS_EXTRA_ARGS=********************
+	VSCODE_GIT_ASKPASS_MAIN=********************
+	VSCODE_GIT_ASKPASS_NODE=********************
+	VSCODE_GIT_IPC_HANDLE=/var/folders/9l/r814l81j56d4h3x4tf8wnnzm0000gn/T/vscode-git-ea1c4fd971.sock
+	VSCODE_INJECTION=1
+	VSCODE_PROFILE_INITIALIZED=1
+	VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+	XPC_FLAGS=0x0
+	XPC_SERVICE_NAME=0
+	ZDOTDIR=/Users/destroyer
+	ZSH=/Users/destroyer/.oh-my-zsh
+	_=/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/bin/briefcase
+	__CFBundleIdentifier=com.google.antigravity
+	__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x8
+
+pyproject.toml:
+[build-system]
+requires = ["briefcase"]
+
+[tool.briefcase]
+project_name = "CPCReady Config"
+bundle = "com.cpcready"
+version = "1.0.0"
+url = "https://github.com/yourusername/cpcreadyconfig"
+license = "MIT"
+author = "CPCReady Team"
+author_email = "contact@cpcready.com"
+
+[tool.briefcase.app.cpcreadyconfig]
+formal_name = "CPCReady Config"
+description = "Configuration GUI for CPCReady - Amstrad CPC Development Tool"
+long_description = """
+CPCReady Config is a graphical user interface for configuring CPCReady,
+a development tool for Amstrad CPC. It allows you to configure drives,
+emulators, and CPC system settings using a modern Qt-based interface.
+"""
+icon = "src/cpcreadyconfig/resources/icon"
+sources = ["src/cpcreadyconfig"]
+requires = [
+    "PySide6>=6.5.0,<6.8.0",
+    "tomli>=2.0.0; python_version < '3.11'",
+    "tomli_w>=1.0.0",
+]
+
+[tool.briefcase.app.cpcreadyconfig.macOS]
+requires = [
+    "PySide6>=6.5.0,<6.8.0",
+    "tomli>=2.0.0; python_version < '3.11'",
+    "tomli_w>=1.0.0",
+    "pyobjc-framework-Cocoa>=9.0",
+]
+version_triple = "13.0"
+
+[tool.briefcase.app.cpcreadyconfig.linux]
+requires = [
+    "PySide6>=6.5.0,<6.8.0",
+    "tomli>=2.0.0; python_version < '3.11'",
+    "tomli_w>=1.0.0",
+]
+system_requires = [
+    "libxcb-cursor0",
+    "libxcb-icccm4",
+    "libxcb-image0",
+    "libxcb-keysyms1",
+    "libxcb-randr0",
+    "libxcb-render-util0",
+    "libxcb-shape0",
+    "libxcb-xinerama0",
+    "libxcb-xkb1",
+    "libxkbcommon-x11-0",
+]
+
+[tool.briefcase.app.cpcreadyconfig.windows]
+requires = [
+    "PySide6>=6.5.0,<6.8.0",
+    "tomli>=2.0.0; python_version < '3.11'",
+    "tomli_w>=1.0.0",
+]
+
+[tool.briefcase.app.cpcreadyconfig.iOS]
+supported = false
+
+[tool.briefcase.app.cpcreadyconfig.android]
+supported = false
+
+[tool.briefcase.app.cpcreadyconfig.web]
+supported = false
+
+Briefcase Log:
+[12:37:05]                                                                                                                                                             config.py:666
+           *************************************************************************                                                                                   config.py:666
+           ** WARNING: License Definition for the Project is Deprecated           **                                                                                   config.py:666
+           *************************************************************************                                                                                   config.py:666
+                                                                                                                                                                       config.py:666
+               Briefcase now uses PEP 621 format for license definitions.                                                                                              config.py:666
+                                                                                                                                                                       config.py:666
+               Previously, the name of the license was assigned to the 'license'                                                                                       config.py:666
+               field in pyproject.toml. For PEP 621, the name of the license is                                                                                        config.py:666
+               assigned to 'license.text' or the name of the file containing the                                                                                       config.py:666
+               license is assigned to 'license.file'.                                                                                                                  config.py:666
+                                                                                                                                                                       config.py:666
+               The current configuration for the Project has a 'license' field                                                                                         config.py:666
+               that is specified as a string:                                                                                                                          config.py:666
+                                                                                                                                                                       config.py:666
+                   license = "MIT"                                                                                                                                     config.py:666
+                                                                                                                                                                       config.py:666
+               To use the PEP 621 format (and to remove this warning), specify that                                                                                    config.py:666
+               the LICENSE file contains the license for the Project:                                                                                                  config.py:666
+                                                                                                                                                                       config.py:666
+                   license.file = "LICENSE"                                                                                                                            config.py:666
+                                                                                                                                                                       config.py:666
+           *************************************************************************                                                                                   config.py:666
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     xattr -p 'com.apple.fileprovider.fpfs#P' '/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/CPCReady Config.app' subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig                                                                                               subprocess.py:838
+           >>> Command Output:                                                                                                                                     subprocess.py:838
+           >>>     xattr: No such file: /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/CPCReady Config.app                       subprocess.py:838
+           >>> Return code: 1                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+                                                                                                                                                                          app.py:115
+           [cpcreadyconfig] Building App...                                                                                                                               app.py:115
+                                                                                                                                                                          app.py:141
+           [cpcreadyconfig] Ad-hoc signing app...                                                                                                                         app.py:141
+                                                                                                                                                                      __main__.py:42
+           Unable to find '/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/briefcase.toml'                                           __main__.py:43
+           Saving log... started                                                                                                                                      console.py:438
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.12/site-packages/briefcase/commands/base.py:501 in briefcase_toml                                             │
+│                                                                                                                                                                                  │
+│    498 │   │   :return: The contents of ``briefcase.toml``                                                                                                                       │
+│    499 │   │   """                                                                                                                                                               │
+│    500 │   │   try:                                                                                                                                                              │
+│ ❱  501 │   │   │   return self._briefcase_toml[app]                                                                                                                              │
+│    502 │   │   except KeyError:                                                                                                                                                  │
+│    503 │   │   │   try:                                                                                                                                                          │
+│    504 │   │   │   │   with (self.bundle_path(app) / "briefcase.toml").open("rb") as f:                                                                                          │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────── locals ──────────────────────────────────────╮                                                                                            │
+│ │  app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                             │                                                                                            │
+│ │ self = <briefcase.platforms.macOS.app.macOSAppBuildCommand object at 0x108dc47a0> │                                                                                            │
+│ ╰───────────────────────────────────────────────────────────────────────────────────╯                                                                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+KeyError: <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>
+
+During handling of the above exception, another exception occurred:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.12/site-packages/briefcase/commands/base.py:504 in briefcase_toml                                             │
+│                                                                                                                                                                                  │
+│    501 │   │   │   return self._briefcase_toml[app]                                                                                                                              │
+│    502 │   │   except KeyError:                                                                                                                                                  │
+│    503 │   │   │   try:                                                                                                                                                          │
+│ ❱  504 │   │   │   │   with (self.bundle_path(app) / "briefcase.toml").open("rb") as f:                                                                                          │
+│    505 │   │   │   │   │   self._briefcase_toml[app] = tomllib.load(f)                                                                                                           │
+│    506 │   │   │   except OSError as e:                                                                                                                                          │
+│    507 │   │   │   │   raise MissingAppMetadata(self.bundle_path(app)) from e                                                                                                    │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────── locals ──────────────────────────────────────╮                                                                                            │
+│ │  app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                             │                                                                                            │
+│ │ self = <briefcase.platforms.macOS.app.macOSAppBuildCommand object at 0x108dc47a0> │                                                                                            │
+│ ╰───────────────────────────────────────────────────────────────────────────────────╯                                                                                            │
+│                                                                                                                                                                                  │
+│ /opt/homebrew/Cellar/python@3.12/3.12.11_1/Frameworks/Python.framework/Versions/3.12/lib/python3.12/pathlib.py:1013 in open                                                      │
+│                                                                                                                                                                                  │
+│   1010 │   │   """                                                                                                                                                               │
+│   1011 │   │   if "b" not in mode:                                                                                                                                               │
+│   1012 │   │   │   encoding = io.text_encoding(encoding)                                                                                                                         │
+│ ❱ 1013 │   │   return io.open(self, mode, buffering, encoding, errors, newline)                                                                                                  │
+│   1014 │                                                                                                                                                                         │
+│   1015 │   def read_bytes(self):                                                                                                                                                 │
+│   1016 │   │   """                                                                                                                                                               │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────╮                                                     │
+│ │ buffering = -1                                                                                                           │                                                     │
+│ │  encoding = None                                                                                                         │                                                     │
+│ │    errors = None                                                                                                         │                                                     │
+│ │      mode = 'rb'                                                                                                         │                                                     │
+│ │   newline = None                                                                                                         │                                                     │
+│ │      self = PosixPath('/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/briefcase.toml') │                                                     │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                     │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/briefcase.toml'
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.12/site-packages/briefcase/__main__.py:27 in main                                                             │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ ❱ 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────────────────── locals ──────────────────────────────────────────────────────────────╮                                            │
+│ │       command = <briefcase.platforms.macOS.app.macOSAppBuildCommand object at 0x108dc47a0>                                        │                                            │
+│ │       console = <briefcase.console.Console object at 0x1025f8590>                                                                 │                                            │
+│ │             e = MissingAppMetadata(PosixPath('/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app')) │                                            │
+│ │ extra_cmdline = []                                                                                                                │                                            │
+│ │       options = {                                                                                                                 │                                            │
+│ │                 │   'update': False,                                                                                              │                                            │
+│ │                 │   'update_requirements': False,                                                                                 │                                            │
+│ │                 │   'update_support': False,                                                                                      │                                            │
+│ │                 │   'update_stub': False,                                                                                         │                                            │
+│ │                 │   'update_resources': False,                                                                                    │                                            │
+│ │                 │   'no_update': False,                                                                                           │                                            │
+│ │                 │   'test_mode': False                                                                                            │                                            │
+│ │                 }                                                                                                                 │                                            │
+│ │     overrides = {}                                                                                                                │                                            │
+│ │        result = 200                                                                                                               │                                            │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                            │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.12/site-packages/briefcase/commands/build.py:154 in __call__                                                  │
+│                                                                                                                                                                                  │
+│   151 │   │                                                                                                                                                                      │
+│   152 │   │   state = None                                                                                                                                                       │
+│   153 │   │   for _, app_obj in sorted(apps_to_build.items()):                                                                                                                   │
+│ ❱ 154 │   │   │   state = self._build_app(                                                                                                                                       │
+│   155 │   │   │   │   app_obj,                                                                                                                                                   │
+│   156 │   │   │   │   update=update,                                                                                                                                             │
+│   157 │   │   │   │   update_requirements=update_requirements,                                                                                                                   │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────── locals ─────────────────────────────────────────────╮                                                                             │
+│ │                   _ = 'cpcreadyconfig'                                                           │                                                                             │
+│ │                 app = None                                                                       │                                                                             │
+│ │            app_name = None                                                                       │                                                                             │
+│ │             app_obj = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                             │                                                                             │
+│ │       apps_to_build = {'cpcreadyconfig': <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>}         │                                                                             │
+│ │           no_update = False                                                                      │                                                                             │
+│ │             options = {}                                                                         │                                                                             │
+│ │                self = <briefcase.platforms.macOS.app.macOSAppBuildCommand object at 0x108dc47a0> │                                                                             │
+│ │               state = None                                                                       │                                                                             │
+│ │           test_mode = False                                                                      │                                                                             │
+│ │              update = False                                                                      │                                                                             │
+│ │ update_requirements = False                                                                      │                                                                             │
+│ │    update_resources = False                                                                      │                                                                             │
+│ │         update_stub = False                                                                      │                                                                             │
+│ │      update_support = False                                                                      │                                                                             │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                             │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.12/site-packages/briefcase/commands/build.py:90 in _build_app                                                 │
+│                                                                                                                                                                                  │
+│    87 │   │                                                                                                                                                                      │
+│    88 │   │   self.verify_app(app)                                                                                                                                               │
+│    89 │   │                                                                                                                                                                      │
+│ ❱  90 │   │   state = self.build_app(app, **full_options(state, options))                                                                                                        │
+│    91 │   │                                                                                                                                                                      │
+│    92 │   │   qualifier = " (test mode)" if app.test_mode else ""                                                                                                                │
+│    93 │   │   self.console.info(                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────── locals ─────────────────────────────────────────────╮                                                                             │
+│ │                 app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                             │                                                                             │
+│ │           no_update = False                                                                      │                                                                             │
+│ │             options = {}                                                                         │                                                                             │
+│ │                self = <briefcase.platforms.macOS.app.macOSAppBuildCommand object at 0x108dc47a0> │                                                                             │
+│ │               state = None                                                                       │                                                                             │
+│ │              update = False                                                                      │                                                                             │
+│ │ update_requirements = False                                                                      │                                                                             │
+│ │    update_resources = False                                                                      │                                                                             │
+│ │         update_stub = False                                                                      │                                                                             │
+│ │      update_support = False                                                                      │                                                                             │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                             │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.12/site-packages/briefcase/platforms/macOS/app.py:142 in build_app                                            │
+│                                                                                                                                                                                  │
+│   139 │   │   # the build is being done as part of a package command.                                                                                                            │
+│   140 │   │   if "adhoc_sign" not in kwargs:                                                                                                                                     │
+│   141 │   │   │   self.console.info("Ad-hoc signing app...", prefix=app.app_name)                                                                                                │
+│ ❱ 142 │   │   │   self.sign_app(app=app, identity=SigningIdentity())                                                                                                             │
+│   143                                                                                                                                                                            │
+│   144                                                                                                                                                                            │
+│   145 class macOSAppRunCommand(macOSRunMixin, macOSAppMixin, RunCommand):                                                                                                        │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────╮                         │
+│ │          app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                                                                                        │                         │
+│ │       kwargs = {}                                                                                                                                    │                         │
+│ │         self = <briefcase.platforms.macOS.app.macOSAppBuildCommand object at 0x108dc47a0>                                                            │                         │
+│ │ unbuilt_path = PosixPath('/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/CPCReady Config.app/Contents/MacOS/Stub') │                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                         │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.12/site-packages/briefcase/platforms/macOS/__init__.py:811 in sign_app                                        │
+│                                                                                                                                                                                  │
+│    808 │   │   │   │   │   │   future = executor.submit(                                                                                                                         │
+│    809 │   │   │   │   │   │   │   self.sign_file,                                                                                                                               │
+│    810 │   │   │   │   │   │   │   path,                                                                                                                                         │
+│ ❱  811 │   │   │   │   │   │   │   entitlements=self.entitlements_path(app),                                                                                                     │
+│    812 │   │   │   │   │   │   │   identity=identity,                                                                                                                            │
+│    813 │   │   │   │   │   │   )                                                                                                                                                 │
+│    814 │   │   │   │   │   │   futures.append(future)                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────────────╮                      │
+│ │             app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                                                                                        │                      │
+│ │     bundle_path = PosixPath('/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/CPCReady Config.app')                     │                      │
+│ │        executor = <concurrent.futures.thread.ThreadPoolExecutor object at 0x1093037d0>                                                                  │                      │
+│ │          folder = PosixPath('/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/CPCReady Config.app/Contents/Frameworks') │                      │
+│ │ frameworks_path = PosixPath('/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/CPCReady Config.app/Contents/Frameworks') │                      │
+│ │         futures = []                                                                                                                                    │                      │
+│ │           group = <itertools._grouper object at 0x1091ab580>                                                                                            │                      │
+│ │        identity = <AdhocSigningIdentity>                                                                                                                │                      │
+│ │            path = PosixPath('/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/CPCReady Config.app')                     │                      │
+│ │    progress_bar = <rich.progress.Progress object at 0x109303260>                                                                                        │                      │
+│ │  resources_path = PosixPath('/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/CPCReady Config.app/Contents/Resources')  │                      │
+│ │            self = <briefcase.platforms.macOS.app.macOSAppBuildCommand object at 0x108dc47a0>                                                            │                      │
+│ │    sign_targets = [PosixPath('/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/CPCReady Config.app')]                   │                      │
+│ │         task_id = 0                                                                                                                                     │                      │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                      │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.12/site-packages/briefcase/platforms/macOS/__init__.py:586 in entitlements_path                               │
+│                                                                                                                                                                                  │
+│    583 │   │   self.get_identities = get_identities                                                                                                                              │
+│    584 │                                                                                                                                                                         │
+│    585 │   def entitlements_path(self, app: AppConfig):  # pragma: no-cover-if-is-windows                                                                                        │
+│ ❱  586 │   │   return self.bundle_path(app) / self.path_index(app, "entitlements_path")                                                                                          │
+│    587 │                                                                                                                                                                         │
+│    588 │   def select_identity(                                                                                                                                                  │
+│    589 │   │   self,                                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────── locals ──────────────────────────────────────╮                                                                                            │
+│ │  app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                             │                                                                                            │
+│ │ self = <briefcase.platforms.macOS.app.macOSAppBuildCommand object at 0x108dc47a0> │                                                                                            │
+│ ╰───────────────────────────────────────────────────────────────────────────────────╯                                                                                            │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.12/site-packages/briefcase/commands/base.py:520 in path_index                                                 │
+│                                                                                                                                                                                  │
+│    517 │   │   :param path_name: Name of the filepath to retrieve                                                                                                                │
+│    518 │   │   :return: filepath for requested path                                                                                                                              │
+│    519 │   │   """                                                                                                                                                               │
+│ ❱  520 │   │   return self.briefcase_toml(app)["paths"][path_name]                                                                                                               │
+│    521 │                                                                                                                                                                         │
+│    522 │   def template_target_version(self, app: AppConfig) -> str | None:                                                                                                      │
+│    523 │   │   """The target version of Briefcase for the app from ``briefcase.toml``.                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────── locals ────────────────────────────────────────╮                                                                                       │
+│ │       app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                             │                                                                                       │
+│ │ path_name = 'entitlements_path'                                                        │                                                                                       │
+│ │      self = <briefcase.platforms.macOS.app.macOSAppBuildCommand object at 0x108dc47a0> │                                                                                       │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────╯                                                                                       │
+│                                                                                                                                                                                  │
+│ /Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/venv/lib/python3.12/site-packages/briefcase/commands/base.py:507 in briefcase_toml                                             │
+│                                                                                                                                                                                  │
+│    504 │   │   │   │   with (self.bundle_path(app) / "briefcase.toml").open("rb") as f:                                                                                          │
+│    505 │   │   │   │   │   self._briefcase_toml[app] = tomllib.load(f)                                                                                                           │
+│    506 │   │   │   except OSError as e:                                                                                                                                          │
+│ ❱  507 │   │   │   │   raise MissingAppMetadata(self.bundle_path(app)) from e                                                                                                    │
+│    508 │   │   │   else:                                                                                                                                                         │
+│    509 │   │   │   │   return self._briefcase_toml[app]                                                                                                                          │
+│    510                                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────── locals ──────────────────────────────────────╮                                                                                            │
+│ │  app = <com.cpcready.cpcreadyconfig v1.0.0 AppConfig>                             │                                                                                            │
+│ │ self = <briefcase.platforms.macOS.app.macOSAppBuildCommand object at 0x108dc47a0> │                                                                                            │
+│ ╰───────────────────────────────────────────────────────────────────────────────────╯                                                                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+MissingAppMetadata: Unable to find '/Users/destroyer/PROJECTS/CPCReady/CPCReadyConfig/build/cpcreadyconfig/macos/app/briefcase.toml'

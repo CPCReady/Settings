@@ -1,0 +1,13 @@
+# Añadir venv al .gitignore
+venv/
+*.pyc
+__pycache__/
+.DS_Store
+
+# Briefcase build artifacts
+build/
+dist/
+*.app
+*.dmg
+*.msi
+*.AppImage
