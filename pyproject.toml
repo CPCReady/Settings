@@ -6,7 +6,6 @@ project_name = "CPCReady Config"
 bundle = "com.cpcready"
 version = "1.0.0"
 url = "https://github.com/yourusername/cpcreadyconfig"
-license = "MIT"
 author = "CPCReady Team"
 author_email = "contact@cpcready.com"
 
