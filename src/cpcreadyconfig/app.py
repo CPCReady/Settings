@@ -471,6 +471,7 @@ def main():
             # pyobjc-framework-Cocoa no está instalado
             pass
     
+    
     window = CPCReadyConfigGUI(app_icon)
     window.show()
     
