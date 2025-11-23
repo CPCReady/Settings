@@ -146,8 +146,7 @@ jobs:
                 ls -lh src/cpcreadyconfig/resources/icon-*.png || echo "No icons generated"
 
   create-release:
-    #needs: [build-macos, build-windows, build-linux]
-    needs: [build-linux]
+    needs: [build-macos, build-windows, build-linux]
     runs-on: ubuntu-latest
     permissions:
       contents: write
